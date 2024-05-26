@@ -7,7 +7,6 @@ function grabData() {
     .then(data => {
         console.log(data);
         tabelnya.DataTable({
-            searching: false,
             "data": data,
             "columns": [
                 { "data": "product" },
